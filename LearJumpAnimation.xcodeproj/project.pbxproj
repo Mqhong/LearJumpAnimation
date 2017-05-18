@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC37ACB1ECC29B300792842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37ACA1ECC29B300792842 /* AppDelegate.swift */; };
+		8DC37ACD1ECC29B300792842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37ACC1ECC29B300792842 /* ViewController.swift */; };
+		8DC37AD01ECC29B300792842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC37ACE1ECC29B300792842 /* Main.storyboard */; };
+		8DC37AD21ECC29B300792842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC37AD11ECC29B300792842 /* Assets.xcassets */; };
+		8DC37AD51ECC29B300792842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC37AD31ECC29B300792842 /* LaunchScreen.storyboard */; };
+		8DC37AE01ECC29B300792842 /* LearJumpAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37ADF1ECC29B300792842 /* LearJumpAnimationTests.swift */; };
+		8DC37AEB1ECC29B300792842 /* LearJumpAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37AEA1ECC29B300792842 /* LearJumpAnimationUITests.swift */; };
+		8DC37AFA1ECC2D9500792842 /* JoumpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37AF91ECC2D9500792842 /* JoumpView.swift */; };
+		8DC37AFC1ECC4B5400792842 /* ImageMaskUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37AFB1ECC4B5400792842 /* ImageMaskUtils.swift */; };
+		8DC37AFE1ECD2F8700792842 /* ImageMaskTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37AFD1ECD2F8700792842 /* ImageMaskTransition.swift */; };
+		8DC37B001ECD3D0E00792842 /* ImageMaskAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC37AFF1ECD3D0E00792842 /* ImageMaskAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DC37ADC1ECC29B300792842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC37ABF1ECC29B200792842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC37AC61ECC29B200792842;
+			remoteInfo = LearJumpAnimation;
+		};
+		8DC37AE71ECC29B300792842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC37ABF1ECC29B200792842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC37AC61ECC29B200792842;
+			remoteInfo = LearJumpAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DC37AC71ECC29B200792842 /* LearJumpAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearJumpAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC37ACA1ECC29B300792842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DC37ACC1ECC29B300792842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DC37ACF1ECC29B300792842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DC37AD11ECC29B300792842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DC37AD41ECC29B300792842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DC37AD61ECC29B300792842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC37ADB1ECC29B300792842 /* LearJumpAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearJumpAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC37ADF1ECC29B300792842 /* LearJumpAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearJumpAnimationTests.swift; sourceTree = "<group>"; };
+		8DC37AE11ECC29B300792842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC37AE61ECC29B300792842 /* LearJumpAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearJumpAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC37AEA1ECC29B300792842 /* LearJumpAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearJumpAnimationUITests.swift; sourceTree = "<group>"; };
+		8DC37AEC1ECC29B300792842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC37AF91ECC2D9500792842 /* JoumpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoumpView.swift; sourceTree = "<group>"; };
+		8DC37AFB1ECC4B5400792842 /* ImageMaskUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaskUtils.swift; sourceTree = "<group>"; };
+		8DC37AFD1ECD2F8700792842 /* ImageMaskTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaskTransition.swift; sourceTree = "<group>"; };
+		8DC37AFF1ECD3D0E00792842 /* ImageMaskAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMaskAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC37AC41ECC29B200792842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC37AD81ECC29B300792842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC37AE31ECC29B300792842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DC37ABE1ECC29B200792842 = {
+			isa = PBXGroup;
+			children = (
+				8DC37AC91ECC29B200792842 /* LearJumpAnimation */,
+				8DC37ADE1ECC29B300792842 /* LearJumpAnimationTests */,
+				8DC37AE91ECC29B300792842 /* LearJumpAnimationUITests */,
+				8DC37AC81ECC29B200792842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC37AC81ECC29B200792842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC37AC71ECC29B200792842 /* LearJumpAnimation.app */,
+				8DC37ADB1ECC29B300792842 /* LearJumpAnimationTests.xctest */,
+				8DC37AE61ECC29B300792842 /* LearJumpAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DC37AC91ECC29B200792842 /* LearJumpAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8DC37AF81ECC29CB00792842 /* classes */,
+				8DC37ACA1ECC29B300792842 /* AppDelegate.swift */,
+				8DC37ACC1ECC29B300792842 /* ViewController.swift */,
+				8DC37ACE1ECC29B300792842 /* Main.storyboard */,
+				8DC37AD11ECC29B300792842 /* Assets.xcassets */,
+				8DC37AD31ECC29B300792842 /* LaunchScreen.storyboard */,
+				8DC37AD61ECC29B300792842 /* Info.plist */,
+				8DC37AF91ECC2D9500792842 /* JoumpView.swift */,
+			);
+			path = LearJumpAnimation;
+			sourceTree = "<group>";
+		};
+		8DC37ADE1ECC29B300792842 /* LearJumpAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC37ADF1ECC29B300792842 /* LearJumpAnimationTests.swift */,
+				8DC37AE11ECC29B300792842 /* Info.plist */,
+			);
+			path = LearJumpAnimationTests;
+			sourceTree = "<group>";
+		};
+		8DC37AE91ECC29B300792842 /* LearJumpAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC37AEA1ECC29B300792842 /* LearJumpAnimationUITests.swift */,
+				8DC37AEC1ECC29B300792842 /* Info.plist */,
+			);
+			path = LearJumpAnimationUITests;
+			sourceTree = "<group>";
+		};
+		8DC37AF81ECC29CB00792842 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DC37AFF1ECD3D0E00792842 /* ImageMaskAnimator.swift */,
+				8DC37AFD1ECD2F8700792842 /* ImageMaskTransition.swift */,
+				8DC37AFB1ECC4B5400792842 /* ImageMaskUtils.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DC37AC61ECC29B200792842 /* LearJumpAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC37AEF1ECC29B300792842 /* Build configuration list for PBXNativeTarget "LearJumpAnimation" */;
+			buildPhases = (
+				8DC37AC31ECC29B200792842 /* Sources */,
+				8DC37AC41ECC29B200792842 /* Frameworks */,
+				8DC37AC51ECC29B200792842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearJumpAnimation;
+			productName = LearJumpAnimation;
+			productReference = 8DC37AC71ECC29B200792842 /* LearJumpAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DC37ADA1ECC29B300792842 /* LearJumpAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC37AF21ECC29B300792842 /* Build configuration list for PBXNativeTarget "LearJumpAnimationTests" */;
+			buildPhases = (
+				8DC37AD71ECC29B300792842 /* Sources */,
+				8DC37AD81ECC29B300792842 /* Frameworks */,
+				8DC37AD91ECC29B300792842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC37ADD1ECC29B300792842 /* PBXTargetDependency */,
+			);
+			name = LearJumpAnimationTests;
+			productName = LearJumpAnimationTests;
+			productReference = 8DC37ADB1ECC29B300792842 /* LearJumpAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DC37AE51ECC29B300792842 /* LearJumpAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC37AF51ECC29B300792842 /* Build configuration list for PBXNativeTarget "LearJumpAnimationUITests" */;
+			buildPhases = (
+				8DC37AE21ECC29B300792842 /* Sources */,
+				8DC37AE31ECC29B300792842 /* Frameworks */,
+				8DC37AE41ECC29B300792842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC37AE81ECC29B300792842 /* PBXTargetDependency */,
+			);
+			name = LearJumpAnimationUITests;
+			productName = LearJumpAnimationUITests;
+			productReference = 8DC37AE61ECC29B300792842 /* LearJumpAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DC37ABF1ECC29B200792842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mm;
+				TargetAttributes = {
+					8DC37AC61ECC29B200792842 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SW9G3AY5FL;
+						ProvisioningStyle = Automatic;
+					};
+					8DC37ADA1ECC29B300792842 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SW9G3AY5FL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DC37AC61ECC29B200792842;
+					};
+					8DC37AE51ECC29B300792842 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SW9G3AY5FL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DC37AC61ECC29B200792842;
+					};
+				};
+			};
+			buildConfigurationList = 8DC37AC21ECC29B200792842 /* Build configuration list for PBXProject "LearJumpAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DC37ABE1ECC29B200792842;
+			productRefGroup = 8DC37AC81ECC29B200792842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC37AC61ECC29B200792842 /* LearJumpAnimation */,
+				8DC37ADA1ECC29B300792842 /* LearJumpAnimationTests */,
+				8DC37AE51ECC29B300792842 /* LearJumpAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC37AC51ECC29B200792842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC37AD51ECC29B300792842 /* LaunchScreen.storyboard in Resources */,
+				8DC37AD21ECC29B300792842 /* Assets.xcassets in Resources */,
+				8DC37AD01ECC29B300792842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC37AD91ECC29B300792842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC37AE41ECC29B300792842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC37AC31ECC29B200792842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC37ACD1ECC29B300792842 /* ViewController.swift in Sources */,
+				8DC37ACB1ECC29B300792842 /* AppDelegate.swift in Sources */,
+				8DC37AFE1ECD2F8700792842 /* ImageMaskTransition.swift in Sources */,
+				8DC37AFA1ECC2D9500792842 /* JoumpView.swift in Sources */,
+				8DC37B001ECD3D0E00792842 /* ImageMaskAnimator.swift in Sources */,
+				8DC37AFC1ECC4B5400792842 /* ImageMaskUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC37AD71ECC29B300792842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC37AE01ECC29B300792842 /* LearJumpAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC37AE21ECC29B300792842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC37AEB1ECC29B300792842 /* LearJumpAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DC37ADD1ECC29B300792842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC37AC61ECC29B200792842 /* LearJumpAnimation */;
+			targetProxy = 8DC37ADC1ECC29B300792842 /* PBXContainerItemProxy */;
+		};
+		8DC37AE81ECC29B300792842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC37AC61ECC29B200792842 /* LearJumpAnimation */;
+			targetProxy = 8DC37AE71ECC29B300792842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DC37ACE1ECC29B300792842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC37ACF1ECC29B300792842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DC37AD31ECC29B300792842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC37AD41ECC29B300792842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DC37AED1ECC29B300792842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DC37AEE1ECC29B300792842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DC37AF01ECC29B300792842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SW9G3AY5FL;
+				INFOPLIST_FILE = LearJumpAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upsoft.com.cn.LearJumpAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8DC37AF11ECC29B300792842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SW9G3AY5FL;
+				INFOPLIST_FILE = LearJumpAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upsoft.com.cn.LearJumpAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8DC37AF31ECC29B300792842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SW9G3AY5FL;
+				INFOPLIST_FILE = LearJumpAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upsoft.com.cn.LearJumpAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearJumpAnimation.app/LearJumpAnimation";
+			};
+			name = Debug;
+		};
+		8DC37AF41ECC29B300792842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SW9G3AY5FL;
+				INFOPLIST_FILE = LearJumpAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upsoft.com.cn.LearJumpAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearJumpAnimation.app/LearJumpAnimation";
+			};
+			name = Release;
+		};
+		8DC37AF61ECC29B300792842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SW9G3AY5FL;
+				INFOPLIST_FILE = LearJumpAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upsoft.com.cn.LearJumpAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LearJumpAnimation;
+			};
+			name = Debug;
+		};
+		8DC37AF71ECC29B300792842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SW9G3AY5FL;
+				INFOPLIST_FILE = LearJumpAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upsoft.com.cn.LearJumpAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LearJumpAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DC37AC21ECC29B200792842 /* Build configuration list for PBXProject "LearJumpAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC37AED1ECC29B300792842 /* Debug */,
+				8DC37AEE1ECC29B300792842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC37AEF1ECC29B300792842 /* Build configuration list for PBXNativeTarget "LearJumpAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC37AF01ECC29B300792842 /* Debug */,
+				8DC37AF11ECC29B300792842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DC37AF21ECC29B300792842 /* Build configuration list for PBXNativeTarget "LearJumpAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC37AF31ECC29B300792842 /* Debug */,
+				8DC37AF41ECC29B300792842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DC37AF51ECC29B300792842 /* Build configuration list for PBXNativeTarget "LearJumpAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC37AF61ECC29B300792842 /* Debug */,
+				8DC37AF71ECC29B300792842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DC37ABF1ECC29B200792842 /* Project object */;
+}
