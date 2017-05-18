@@ -68,24 +68,29 @@ class ImageMaskAnimator: NSObject,UIViewControllerAnimatedTransitioning{
             imageView.layer.shadowOpacity = 0.8
             
             //Animation phase 1, change transform and frame
+            //第一步，移动ImageView到toView的对应Frame，同时变化Scale
             UIView.animate(withDuration: 0.5 / 1.6 * self.config.presentDuration, animations: {
                 self.imageView.frame = adjustToRect
                 self.imageView.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
             }){(finished) in
                 //Animation phase 2,change transform to default,clear shadow
+                 //第二步，恢复ImageView的Transfrom
                 UIView.animate(withDuration: 0.3 / 1.6 * self.config.presentDuration, animations: {
                     self.imageView.transform = CGAffineTransform.identity
                     self.imageView.layer.shadowOpacity = 0.0
                 }){(finished) in
                     //Animation phase 3,start mask animation
+                    //第三步，添加toView，然后开始mask动画
                     containView.addSubview(toView)
                     containView.bringSubview(toFront: self.imageView)
                     let adjustFrame = self.imageView.convert(self.imageView.bounds, to: self.maskContentView)
                     toView.maskFrom(adjustFrame, duration: 0.8 / 1.6 * self.config.presentDuration, complete: {
+                        //所有动画完成，进行清理
                         self.maskContentView.removeFromSuperview()
                         self.imageView.removeFromSuperview()
                         self.maskContentView = nil
                         self.imageView = nil
+                        //通知上下文，转场完成
                         transitionContext.completeTransition(true)
                         toImageView.isHidden = false
                         fromImageView.isHidden = false
